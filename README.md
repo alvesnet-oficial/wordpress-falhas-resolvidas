@@ -2,7 +2,7 @@
 
 
 <p align="center">
-    <img src="/wordpress-falhas-resolvidas/Invalid SSL certificate.png" width="724" height="324">
+    <img src="/wordpress-falhas-resolvidas/cpanel-acesso-phpmyadmin-erro.png" width="724" height="324">
 </p>
 
 
