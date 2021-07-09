@@ -29,7 +29,7 @@ Após isso conseguimos ter acesso ao site novamente.
 E mesmo desativando o SSL na cloudfare, e o SSL no Servidor do site a mensagens abaixo comecou apresentar erro ao acessar o phpmyadmin:
 
 <p align="center">
-    <img src="/cpanel-acesso-phpmyadmin-erro.png" width="1200" height="500">
+    <img src="/cpanel-acesso-phpmyadmin-erro.png" width="1500" height="500">
 </p>
 
 Resolução: 
