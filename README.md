@@ -5,7 +5,7 @@
 Após ativar a função SSL na cloudfare 'Completo (Inrestrito)' o site comecou a apresentar os seguintes erros:
 
 <p align="center">
-    <img src="/invalid-ssl-certificate.png" width="724" height="324">
+    <img src="/invalid-ssl-certificate.png" width="724" height="524">
 </p>
 
 Resolução:
@@ -29,7 +29,7 @@ Após isso conseguimos ter acesso ao site novamente.
 E mesmo desativando o SSL na cloudfare, e o SSL no Servidor do site a mensagens abaixo comecou apresentar erro ao acessar o phpmyadmin:
 
 <p align="center">
-    <img src="/cpanel-acesso-phpmyadmin-erro.png" width="724" height="324">
+    <img src="/cpanel-acesso-phpmyadmin-erro.png" width="724" height="524">
 </p>
 
 Resolução: 
