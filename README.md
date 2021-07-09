@@ -51,9 +51,18 @@ home: http://www.seudominio.com.br
 para
 
 siteurl: https://www.seudominio.com.br
-home: https://www.seudominio.com.br
-
+home: https://www.seudominio.com.brt
 Após isso conseguimos ter acesso ao site novamente por SSL.
+
+# 7 - 404 No found
+
+Após tentativa de acesso a painel de administração do WordPress apresentou a seguinte falha:
+
+..
+
+Resolução:
+
+Foi necessário restaurar as configurações originais do arquivo .htaccess assim o acesso foi permitido ao wordpress.
 
 # 6 - SSL Cloudfare com criptografia:
 
