@@ -68,7 +68,7 @@ Foi necessário restaurar as configurações originais do arquivo .htaccess assi
 
 # 6 - SSL Cloudfare com criptografia:
 
-Implantar  entre os 'visitante' ao 'Servidor Cloufare' e 'Servidor Cloufare' ao 'Servidor de Hospedage'. (Pendente)
+Implantar  entre os 'visitante' ao 'Servidor Cloudfare' e 'Servidor Cloudfare' ao 'Servidor de Hospedagem'. (Pendente)
 
 # SSL/TLS
 
