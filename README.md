@@ -58,7 +58,9 @@ Após isso conseguimos ter acesso ao site novamente por SSL.
 
 Após tentativa de acesso a painel de administração do WordPress apresentou a seguinte falha:
 
-..
+<p align="center">
+    <img src="/404-not-found.png" width="800" height="500">
+</p>
 
 Resolução:
 
