@@ -15,11 +15,13 @@ Resolução:
 Necessário acessar o banco de dados do phpmyadmin e na tabela wp_options foi necessário alterar as seguintes linhas abaixo de https:// para http://
 
 siteurl: https://www.seudominio.com.br
+
 home: https://www.seudominio.com.br
 
 para
 
 siteurl: http://www.seudominio.com.br
+
 home: http://www.seudominio.com.br
 
 Após isso conseguimos ter acesso ao site novamente.
@@ -89,7 +91,8 @@ exemplo: seudomninio.com.br/*
 
 Em seguida, as configurações são:
 
-URL de encaminhamento: 301 - Redirecionamento permanente	
+URL de encaminhamento: 301 - Redirecionamento permanente
+
 Digite um destino URL: https://www.seudominio.com.br
 
 Não é possível adicionar configurações adicionais com "URL de encaminhamento" selecionado.
