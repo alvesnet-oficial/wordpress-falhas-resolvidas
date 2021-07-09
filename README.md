@@ -48,12 +48,15 @@ No cpanel em SSL/TLS gerenciar os certificado existe e localizamos o certificao 
 Necessário acessar o banco de dados do phpmyadmin e na tabela wp_options foi necessário alterar as seguintes linhas abaixo de http:// para https://
 
 siteurl: http://www.seudominio.com.br
+
 home: http://www.seudominio.com.br
 
 para
 
 siteurl: https://www.seudominio.com.br
+
 home: https://www.seudominio.com.brt
+
 Após isso conseguimos ter acesso ao site novamente por SSL.
 
 # 7 - 404 No found
