@@ -8,5 +8,5 @@
 
 
 <p align="center">
-    <img src="/wordpress-falhas-resolvidas/CpaneALVESNET.png" width="724" height="324">
+    <img src="/wordpress-falhas-resolvidas/invalid-ssl-certificate.png" width="724" height="324">
 </p>
