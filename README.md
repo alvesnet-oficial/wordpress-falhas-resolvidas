@@ -24,7 +24,7 @@ home: http://www.seudominio.com.br
 
 Após isso conseguimos ter acesso ao site novamente.
 
-# 3 - Corrir erro de acesso ao phpmyamdin com Provedor de Hospedagem
+# 3 - Corrir erro de acesso ao phpmyadmin com Provedor de Hospedagem
 
 E mesmo desativando o SSL na cloudfare, e o SSL no Servidor do site a mensagens abaixo comecou apresentar erro ao acessar o phpmyadmin:
 
