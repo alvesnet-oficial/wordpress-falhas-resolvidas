@@ -1,8 +1,8 @@
 # wordpress-falhas-resolvidas
 
-# 1 - Desativado SSL Cloudfare
+# 1 - Desativado SSL Cloudflare
 
-Após ativar a função SSL na cloudfare 'Completo (Inrestrito)' o site comecou a apresentar os seguintes erros:
+Após ativar a função SSL na cloudflare 'Completo (Inrestrito)' o site comecou a apresentar os seguintes erros:
 
 <p align="center">
     <img src="/invalid-ssl-certificate.png" width="800" height="500">
@@ -28,7 +28,7 @@ Após isso conseguimos ter acesso ao site novamente.
 
 # 3 - Corrir erro de acesso ao phpmyadmin com Provedor de Hospedagem
 
-E mesmo desativando o SSL na cloudfare, e o SSL no Servidor do site a mensagens abaixo comecou apresentar erro ao acessar o phpmyadmin:
+E mesmo desativando o SSL na cloudflare, e o SSL no Servidor do site a mensagens abaixo comecou apresentar erro ao acessar o phpmyadmin:
 
 <p align="center">
     <img src="/cpanel-acesso-phpmyadmin-erro.png" width="1500" height="500">
@@ -68,9 +68,9 @@ Resolução:
 
 Foi necessário restaurar as configurações originais do arquivo .htaccess assim o acesso foi permitido ao wordpress.
 
-# 6 - SSL Cloudfare com criptografia:
+# 6 - SSL Cloudflare com criptografia:
 
-Implantar  entre os 'visitante' ao 'Servidor Cloudfare' e 'Servidor Cloudfare' ao 'Servidor de Hospedagem'. (Pendente)
+Implantar  entre os 'visitante' ao 'Servidor Cloudflare' e 'Servidor Cloudflare' ao 'Servidor de Hospedagem'. (Pendente)
 
 # SSL/TLS
 
