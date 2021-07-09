@@ -55,9 +55,48 @@ home: https://www.seudominio.com.br
 
 Após isso conseguimos ter acesso ao site novamente por SSL.
 
-# 6 - Implantar SSL Cloudfare com criptografia entre os 'visitante' ao 'Servidor Cloufare' e 'Servidor Cloufare' ao 'Servidor de Hospedage'. (Pendente)
+# 6 - SSL Cloudfare com criptografia:
+
+Implantar  entre os 'visitante' ao 'Servidor Cloufare' e 'Servidor Cloufare' ao 'Servidor de Hospedage'. (Pendente)
+
+# SSL/TLS
+
+Completo (Ativar)
+
+* Sempre use o modo completo para uso em loja virtual.
+
+* NOTA: Se sua loja estiver configurado com o modo 'flexivel' ou 'completo(estrito)' sua loja não vai funcionar bem, pode dar erro no carrinho ou em outras configurações. 
+
+# Page Rules
+
+Crie uma Page Rule para alvesnet.com.br
 
 
+Se o URL corresponder: Usando o caractere asterisco (*), você pode criar padrões dinâmicos que podem corresponder a muitas URLs, em vez de apenas uma. Todos os URLs não diferenciam maiúsculas de minúsculas. Leia mais
 
+exemplo: seudomninio.com.br/*
 
+Em seguida, as configurações são:
+
+URL de encaminhamento: 301 - Redirecionamento permanente	
+Digite um destino URL: https://www.seudominio.com.br
+
+Não é possível adicionar configurações adicionais com "URL de encaminhamento" selecionado.
+
+# Scrape Shield
+
+Proteja o conteúdo do seu site
+
+Obfuscação de Endereço de Email - (Desativar)
+* Desativar essa opção pois se não ela vai ficar toda hora enviando e-mail para você.
+
+*Exiba endereços de email ofuscados em seu site para evitar a colheita por bots e spammers, sem alterações visíveis no endereço para visitantes humanos.
+
+Exclusões do Lado do Servidor - (Ativado)
+
+* Ocultar automaticamente conteúdo específico de visitantes questionáveis.
+
+Proteção de Hotlink - (Desativado)
+
+* Proteja suas imagens de links fora do site.
 
